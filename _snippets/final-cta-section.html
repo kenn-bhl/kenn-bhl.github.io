@@ -1,0 +1,31 @@
+<!--
+  Backup: homepage final CTA ("Learn something new. Live a little better."), removed 2026-11-06.
+  Folder starts with "_" so GitHub Pages does not publish it. CSS included below.
+-->
+
+<style>
+/* ---------- Final CTA ---------- */
+.cta {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 64px;
+  height: 80vh; min-height: 640px; max-height: 800px; padding: 160px 0; text-align: center;
+}
+.cta .text { display: flex; flex-direction: column; align-items: center; gap: 20px; }
+.cta p { max-width: 620px; text-wrap: balance; }
+@media (max-width: 1199px) { .cta h2 { font-size: 44px; line-height: 48px; } }
+@media (max-width: 767px) { .cta { gap: 40px; padding: 128px 0; } .cta h2 { font-size: 32px; line-height: 36px; } }
+
+</style>
+
+<!-- ================= Final CTA ================= -->
+<section class="cta">
+  <div class="container">
+    <div class="text">
+      <h2 class="t-spotlight">Learn something new.<br />Live a little better.</h2>
+      <p class="t-body muted">J-Studio started as a few apps we built for ourselves and our families. It's still that at heart, just shared with more people.</p>
+    </div>
+  </div>
+  <div class="btn-row">
+    <a class="btn btn-inverse" href="#apps">Explore apps</a>
+    <a class="btn btn-tertiary" href="contact.html">Contact us</a>
+  </div>
+</section>

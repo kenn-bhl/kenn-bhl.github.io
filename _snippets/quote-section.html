@@ -1,0 +1,37 @@
+<!--
+  Backup: "Studio quote" block, removed from the homepage on 2026-11-06.
+  Intended for reuse on app detail pages.
+  - Folder starts with "_" so GitHub Pages (Jekyll) does not publish it.
+  - Image paths are relative to the site root; adjust (e.g. ../assets/...) inside app folders.
+  - Originally placed inside .stories > .container > .wide, after .story-row,
+    on a light-grey section background (--bg-secondary-solid).
+  - Required CSS is included below (was in assets/css/style.css).
+-->
+
+<style>
+.quote { display: grid; grid-template-columns: 2fr 1fr; gap: 40px; margin-top: 160px; align-items: end; }
+.quote .mark { display: block; font-size: 80px; line-height: 80px; font-weight: 650; }
+.person { display: flex; align-items: center; gap: 24px; }
+.person .avatar { position: relative; width: 48px; height: 48px; flex-shrink: 0; }
+.person .avatar > img { width: 48px; height: 48px; border-radius: 50%; }
+.person .avatar .badge { position: absolute; right: -5px; bottom: -5px; width: 16px; height: 16px; border-radius: 3px; overflow: hidden; }
+.person .who { display: flex; flex-direction: column; }
+@media (max-width: 1199px) { .quote { grid-template-columns: 1fr; margin-top: 80px; } }
+</style>
+
+<div class="quote">
+  <blockquote class="t-title-1">
+    <span class="mark">“</span>
+    <p>We build the apps we want on our own phones: quick to open, easy to understand and respectful of your time and data.</p>
+  </blockquote>
+  <div class="person">
+    <div class="avatar">
+      <img src="https://placehold.co/96x96" alt="" />
+      <span class="badge"><img src="assets/favicon-32.png" alt="" /></span>
+    </div>
+    <div class="who t-body">
+      <span>The J-Studio team</span>
+      <span class="muted">Makers of 1000 Words &amp; Daily Task</span>
+    </div>
+  </div>
+</div>

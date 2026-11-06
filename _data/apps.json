@@ -1,0 +1,84 @@
+{
+  "apps": [
+    {
+      "id": "1000-stater-words",
+      "group": "Education",
+      "name": "1000 Words",
+      "shortDescription": "Learn 1,000 starter English words with pictures, audio and spelling games.",
+      "age": "All ages",
+      "logo": "1000-words/logo.png",
+      "main": "1000-words/main.png",
+      "landing": "1000-words/",
+      "appStoreUrl": "https://apps.apple.com/{locale}/app/1000-words/id6829815275",
+      "googlePlayUrl": "coming_soon",
+      "special_available": "",
+      "position": 200
+    },
+    {
+      "id": "j-kids",
+      "group": "Education",
+      "name": "J-Kids",
+      "shortDescription": "Fun math, logic and IQ games for kids.",
+      "age": "Ages 4–6",
+      "logo": "j-kids/logo.png",
+      "main": "j-kids/main.png",
+      "landing": "j-kids/",
+      "appStoreUrl": "https://apps.apple.com/{locale}/app/j-kids/id6822984444",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.jkid.smart",
+      "special_available": "",
+      "position": 100
+    },
+    {
+      "id": "new-word-learning",
+      "group": "Education",
+      "name": "New Word Learning",
+      "shortDescription": "Learn new words with pictures, audio and spelling games.",
+      "age": "All ages",
+      "logo": "https://placehold.co/128x128",
+      "main": "https://placehold.co/600x400",
+      "appStoreUrl": "coming_soon",
+      "googlePlayUrl": "coming_soon",
+      "special_available": "",
+      "position": 300
+    },
+    {
+      "id": "daily-task",
+      "group": "Life",
+      "name": "Daily Task",
+      "shortDescription": "Plan your day, tick off tasks and get gentle reminders, all stored on your device.",
+      "age": "18+",
+      "logo": "daily-task/logo.png",
+      "main": "daily-task/main.png",
+      "landing": "daily-task/",
+      "appStoreUrl": "coming_soon",
+      "googlePlayUrl": "coming_soon",
+      "position": 100
+    },
+    {
+      "id": "subsum",
+      "group": "Life",
+      "name": "Subsum",
+      "shortDescription": "How much do you really spend on subscriptions? Find out at a glance.",
+      "age": "18+",
+      "logo": "subsum/logo.png",
+      "main": "subsum/main.png",
+      "appStoreUrl": "coming_soon",
+      "googlePlayUrl": "coming_soon",
+      "position": 300
+    },
+    {
+      "id": "lay-so-mega",
+      "group": "Life",
+      "name": "Lấy số Vietlott",
+      "shortDescription": "Generate random number sets with your own filter rules.",
+      "age": "18+",
+      "logo": "lay-so-vietlott/logo.png",
+      "main": "lay-so-vietlott/main.png",
+      "landing": "lay-so-vietlott/",
+      "appStoreUrl": "https://apps.apple.com/vn/app/l%E1%BA%A5y-s%E1%BB%91-vietlott/id6824037082?l=vi",
+      "googlePlayUrl": "coming_soon",
+      "special_available": "vi",
+      "position": 200
+    }
+  ]
+}

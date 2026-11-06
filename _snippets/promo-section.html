@@ -1,0 +1,65 @@
+<!--
+  Backup: "1000 Words promo" section (icon reels + "Learning English? 1000 Words goes further."),
+  removed from the homepage on 2026-11-06. Intended for reuse on app detail pages.
+  - Folder starts with "_" so GitHub Pages (Jekyll) does not publish it.
+  - Originally sat directly after the Stories section, sharing its light-grey background
+    (--bg-secondary-solid), so the two looked like one block.
+  - Uses shared classes from assets/css/style.css: .container, .t-title-1, .t-body, .muted, .btn, .btn-tertiary.
+  - Section-specific CSS is included below (was in assets/css/style.css).
+-->
+
+<style>
+/* ---------- Promo (icon reels) ---------- */
+.promo { background: var(--bg-secondary-solid); padding: 100px 0 200px; overflow: hidden; }
+.promo-inner { display: flex; align-items: center; justify-content: center; gap: 64px; }
+.promo-copy { display: flex; flex-direction: column; align-items: center; gap: 40px; text-align: center; }
+.promo-copy .text { display: flex; flex-direction: column; gap: 16px; align-items: center; }
+.promo-copy .text p.t-body { max-width: 489px; }
+.reel { position: relative; width: 142px; height: 318px; overflow: hidden; flex-shrink: 0;
+  -webkit-mask-image: linear-gradient(transparent, #000 25%, #000 75%, transparent);
+          mask-image: linear-gradient(transparent, #000 25%, #000 75%, transparent); }
+.reel-track { display: flex; flex-direction: column; gap: 16px; animation: reel 18s linear infinite; }
+.reel.down .reel-track { animation-direction: reverse; }
+.reel img { width: 142px; height: 142px; border-radius: 32px; }
+@keyframes reel { to { transform: translateY(-50%); } }
+@media (max-width: 899px) {
+  .promo { padding-bottom: 128px; }
+  .promo-inner { flex-direction: column; gap: 40px; }
+  .reel.down { display: none; }
+  .reel { width: 100%; max-width: 320px; height: 100px;
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 25%, #000 75%, transparent);
+            mask-image: linear-gradient(90deg, transparent, #000 25%, #000 75%, transparent); }
+  .reel-track { flex-direction: row; animation-name: reel-x; }
+  .reel img { width: 100px; height: 100px; border-radius: 22px; }
+  @keyframes reel-x { to { transform: translateX(-50%); } }
+}
+
+</style>
+
+<!-- ================= Promo ================= -->
+<section class="promo">
+  <div class="container">
+    <div class="promo-inner">
+      <div class="reel up" aria-hidden="true">
+        <div class="reel-track">
+          <img src="https://placehold.co/284x284" alt="" /><img src="https://placehold.co/284x284" alt="" /><img src="https://placehold.co/284x284" alt="" /><img src="https://placehold.co/284x284" alt="" />
+          <img src="https://placehold.co/284x284" alt="" /><img src="https://placehold.co/284x284" alt="" /><img src="https://placehold.co/284x284" alt="" /><img src="https://placehold.co/284x284" alt="" />
+        </div>
+      </div>
+      <div class="promo-copy">
+        <div class="text">
+          <p class="t-title-1"><span class="muted">Learning English?</span><br />1000 Words goes further.</p>
+          <p class="t-body muted">Pictures, native audio and spelling games for 1,000 everyday words. Works offline, no account needed, progress saved on your device.</p>
+        </div>
+        <a class="btn btn-tertiary" href="#education">Explore 1000 Words</a>
+      </div>
+      <div class="reel down" aria-hidden="true">
+        <div class="reel-track">
+          <img src="https://placehold.co/284x284" alt="" /><img src="https://placehold.co/284x284" alt="" /><img src="https://placehold.co/284x284" alt="" /><img src="https://placehold.co/284x284" alt="" />
+          <img src="https://placehold.co/284x284" alt="" /><img src="https://placehold.co/284x284" alt="" /><img src="https://placehold.co/284x284" alt="" /><img src="https://placehold.co/284x284" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
