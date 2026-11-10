@@ -1,6 +1,6 @@
 """Sync _data/apps.json -> index.html (app grid, story row) and the footer app columns on every page.
 
-    python3 _tools/sync_apps.py && python3 _tools/build_vi.py
+    python3 _tools/sync_apps.py && python3 _tools/build_i18n.py
 """
 import json, re, html, sys, os
 root = os.path.abspath(sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(__file__), '..'))

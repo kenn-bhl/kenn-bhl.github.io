@@ -490,10 +490,30 @@ a:focus-visible, .btn:focus-visible { outline: 2px solid #2b7bf3; outline-offset
   .promo-copy .text { gap: 12px; }
 }
 
-/* ---------- Footer language switcher ---------- */
-.lang-switch { display: flex; align-items: center; gap: 8px; margin-top: 8px; color: var(--text-secondary); }
-.lang-switch svg { width: 16px; height: 16px; flex-shrink: 0; }
-.lang-switch ul { display: flex; flex-wrap: wrap; align-items: center; }
-.lang-switch li + li::before { content: "·"; margin: 0 8px; }
-.lang-switch a { color: inherit; }
-.lang-switch a[aria-current] { color: var(--text-primary); font-weight: 600; }
+/* ---------- Header language dropdown (written by _tools/build_vi.py) ---------- */
+.nav-right { gap: 20px; }
+.lang-menu { position: relative; }
+.lang-menu summary {
+  display: flex; align-items: center; gap: 6px; height: 44px;
+  font-weight: 600; cursor: pointer; list-style: none; user-select: none;
+  transition: color .15s ease-out;
+}
+.lang-menu summary::-webkit-details-marker { display: none; }
+.lang-menu summary:hover, .lang-menu[open] summary { color: var(--brand); }
+.lang-menu summary:focus-visible { outline: 2px solid #2b7bf3; outline-offset: 3px; border-radius: 8px; }
+.lang-menu summary svg { width: 16px; height: 16px; flex-shrink: 0; }
+.lang-menu .chev { width: 12px; height: 12px; transition: transform .15s ease-out; }
+.lang-menu[open] .chev { transform: rotate(180deg); }
+.lang-menu ul {
+  position: absolute; top: calc(100% + 4px); right: 0; z-index: 110;
+  min-width: 168px; padding: 6px;
+  background: var(--bg-primary); border-radius: 14px;
+  box-shadow: 0 0 0 1px var(--border-secondary), 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+.lang-menu a {
+  display: block; padding: 10px 12px; border-radius: 8px;
+  color: var(--text-secondary); transition: background-color .15s ease-out, color .15s ease-out;
+}
+.lang-menu a:hover { background: var(--bg-tertiary); color: var(--text-primary); }
+.lang-menu a[aria-current] { color: var(--text-primary); font-weight: 600; }
+@media (max-width: 479px) { .lang-menu .lang-name { display: none; } }

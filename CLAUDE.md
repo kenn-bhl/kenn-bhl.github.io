@@ -54,14 +54,22 @@ Auto-scrolling rows (home "We're parents too" screenshots, landing "Inside the a
 
 Every page loads `anchors.js`. Links to a section on the same page (`href="#id"`) scroll smoothly without adding `#id` to the URL, and a hash in the URL on arrival (e.g. `../#education`) is removed after the jump. `#top` scrolls to the top of the page.
 
-## Languages: English + Vietnamese (`vi/`)
+## Languages (`vi/`, `ja/`, …)
 
-English pages are the source. `vi/` mirrors every English page at the same path (`vi/index.html`, `vi/j-kids/index.html`, `vi/1000-words/privacy.html`, …) and is generated, never edited by hand:
+English pages are the source. Each translated page mirrors an English page at the same path under its language folder (`vi/index.html`, `ja/j-kids/index.html`, `de/j-kids/privacy.html`, …) and is generated, never edited by hand:
 
 ```
-python3 _tools/sync_apps.py   # after changing _data/apps.json (home cards + every footer)
-python3 _tools/build_vi.py    # after changing any English page
+python3 _tools/sync_apps.py    # after changing _data/apps.json (home cards + every footer)
+python3 _tools/build_i18n.py   # after changing any English page, a translation, or a languages list
 ```
 
-- `build_vi.py` translates text with `_tools/vi.json` (exact English string → Vietnamese), sets `lang="vi"`, keeps page links inside `vi/` and points images/CSS/JS back to the shared files. It lists any string without a translation: add it to `vi.json` (natural Vietnamese) and rerun.
-- It also writes the footer language switcher (`<nav class="lang-switch">`: English · Tiếng Việt, current one marked `aria-current`) on every English and Vietnamese page, linking each page to its counterpart.
+Which languages a page exists in:
+- `index.html`, `contact.html`: `languages` in `_data/site.json`.
+- An app's `index.html` and `privacy.html`: `languages` of that app in `_data/apps.json` (each app supports its own set; missing → the site languages). English always exists.
+
+Rules the build applies:
+- Text is translated with `_tools/i18n/<lang>.json` (exact English string, whitespace collapsed → translation; keep `&amp;` escaped). The build lists every string without a translation per language: add it (natural wording for that language) and rerun. App names follow the store listing of that language.
+- A page link points at the same language when the target page exists in it; otherwise at the English page, marked `hreflang="en"`. Images/CSS/JS point back to the shared files.
+- The header language dropdown (`<details class="lang-menu">` after the Contact link in `.nav-right`, current language marked `aria-current`, names written in their own language) lists only the languages that page exists in. `assets/js/lang-menu.js` closes it on an outside click or Escape. Never write the menu by hand.
+- Translated pages whose English page or language was removed are deleted.
+- A new language code must be added to `LANG_NAMES` and `LANG_WORD` in `build_i18n.py`.
