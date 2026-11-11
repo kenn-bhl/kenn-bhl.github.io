@@ -1,6 +1,5 @@
 {
   "_comment": "English → Vietnamese text for the vi/ pages. Keys are exact English strings (whitespace collapsed) from text nodes and alt/title/aria-label/content attributes. Run: python3 _tools/build_vi.py",
-
   "J-Studio home": "Trang chủ J-Studio",
   "Contact": "Liên hệ",
   "Education": "Giáo dục",
@@ -13,7 +12,6 @@
   "Inside the app.": "Bên trong ứng dụng.",
   "Privacy policy": "Chính sách quyền riêng tư",
   "“": "“",
-
   "J-Studio — Mobile apps for learning and everyday life": "J-Studio — Ứng dụng di động cho học tập và cuộc sống",
   "J-Studio builds simple, thoughtful mobile apps for education and everyday life. Available on the App Store and Google Play.": "J-Studio làm những ứng dụng di động đơn giản, chỉn chu cho học tập và cuộc sống hằng ngày. Có trên App Store và Google Play.",
   "Simple, thoughtful mobile apps for education and everyday life.": "Ứng dụng di động đơn giản, chỉn chu cho học tập và cuộc sống hằng ngày.",
@@ -52,14 +50,10 @@
   "Subsum icon": "Biểu tượng Subsum",
   "Subsum screenshot": "Ảnh màn hình Subsum",
   "Subsum logo": "Logo Subsum",
-
   "Contact — J-Studio": "Liên hệ — J-Studio",
   "Get in touch.": "Liên hệ với chúng tôi.",
   "Questions, bug reports or ideas about any J-Studio app? We’re happy to help.": "Có câu hỏi, lỗi cần báo hay ý tưởng cho ứng dụng nào của J-Studio? Chúng tôi luôn sẵn lòng hỗ trợ.",
-  "Questions, bug reports or ideas about any J-Studio app? Email or call us.": "Có câu hỏi, lỗi cần báo hay ý tưởng cho ứng dụng nào của J-Studio? Hãy gửi email hoặc gọi cho chúng tôi.",
   "Email": "Email",
-  "Phone": "Điện thoại",
-
   "1000 Words — Learn your first 1,000 English words | J-Studio": "1000 Words — Học 1.000 từ tiếng Anh đầu tiên | J-Studio",
   "1000 Words — Learn your first 1,000 English words": "1000 Words — Học 1.000 từ tiếng Anh đầu tiên",
   "Learn your first": "Học 1.000 từ",
@@ -92,7 +86,6 @@
   "Spelling practice illustration": "Minh hoạ phần luyện đánh vần",
   "Choosing your language illustration": "Minh hoạ phần chọn ngôn ngữ",
   "20 words at a time illustration": "Minh hoạ bài học 20 từ",
-
   "J-Kids — Math and logic games for ages 4–6 | J-Studio": "J-Kids — Trò chơi toán và tư duy cho bé 4–6 tuổi | J-Studio",
   "J-Kids — Math and logic games for ages 4–6": "J-Kids — Trò chơi toán và tư duy cho bé 4–6 tuổi",
   "Fun math and logic": "Toán và tư duy vui nhộn",
@@ -124,7 +117,6 @@
   "Printable worksheet illustration": "Minh hoạ phiếu bài tập để in",
   "Language choice illustration": "Minh hoạ phần chọn ngôn ngữ",
   "Session history illustration": "Minh hoạ lịch sử lượt chơi",
-
   "Daily Task — Simple to-do lists and reminders | J-Studio": "Daily Task — Danh sách việc cần làm và lời nhắc đơn giản | J-Studio",
   "Daily Task — Simple to-do lists and reminders": "Daily Task — Danh sách việc cần làm và lời nhắc đơn giản",
   "Plan your day,": "Lên kế hoạch cho ngày,",
@@ -157,7 +149,6 @@
   "Tasks with priority labels and groups": "Các việc có nhãn ưu tiên và nhóm",
   "Upcoming anniversaries list": "Danh sách ngày kỷ niệm sắp tới",
   "Reminder notification and home screen widget": "Thông báo nhắc việc và widget màn hình chính",
-
   "Lấy số Vietlott — Number sets with your own filter rules | J-Studio": "Lấy số Vietlott — Tạo bộ số theo điều kiện lọc của bạn | J-Studio",
   "Lấy số Vietlott — Number sets with your own filter rules": "Lấy số Vietlott — Tạo bộ số theo điều kiện lọc của bạn",
   "Generate random number sets for Loto 5/35, Mega 6/45 and Power 6/55 with your own filter rules.": "Tạo bộ số ngẫu nhiên cho Loto 5/35, Mega 6/45 và Power 6/55 theo điều kiện lọc của riêng bạn.",
@@ -191,7 +182,6 @@
   "An all-even set crossed out": "Bộ toàn số chẵn bị gạch bỏ",
   "A set with four evenly spaced numbers highlighted": "Bộ số có bốn số cách đều được tô nổi bật",
   "Four generated number sets": "Bốn bộ số đã tạo",
-
   "Privacy Policy — 1000 Words | J-Studio": "Chính sách quyền riêng tư — 1000 Words | J-Studio",
   "Privacy Policy — Daily Task | J-Studio": "Chính sách quyền riêng tư — Daily Task | J-Studio",
   "Privacy Policy — Lấy số Vietlott | J-Studio": "Chính sách quyền riêng tư — Lấy số Vietlott | J-Studio",
@@ -241,7 +231,6 @@
   "Delete your data:": "Xoá dữ liệu:",
   "uninstalling the App removes all data stored on your device.": "gỡ Ứng dụng sẽ xoá toàn bộ dữ liệu lưu trên máy bạn.",
   "The App is intended for a general audience and is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided personal information through the App, please contact us and we will help remove it.": "Ứng dụng dành cho người dùng phổ thông và không hướng tới trẻ em dưới 13 tuổi. Chúng tôi không cố ý thu thập thông tin cá nhân của trẻ em. Nếu bạn cho rằng một trẻ em đã cung cấp thông tin cá nhân qua Ứng dụng, vui lòng liên hệ để chúng tôi hỗ trợ xoá.",
-
   "1. Information stored on your device": "1. Thông tin lưu trên thiết bị của bạn",
   "2. Advertising (Google AdMob)": "2. Quảng cáo (Google AdMob)",
   "3. Your choices": "3. Lựa chọn của bạn",
@@ -261,7 +250,6 @@
   "The App is free and is supported by ads served by Google AdMob, a service of Google LLC. The Google Mobile Ads SDK may automatically collect the following data to show ads, measure ad performance and prevent fraud:": "Ứng dụng miễn phí và được duy trì nhờ quảng cáo do Google AdMob, một dịch vụ của Google LLC, cung cấp. Google Mobile Ads SDK có thể tự động thu thập các dữ liệu sau để hiển thị quảng cáo, đo lường hiệu quả quảng cáo và chống gian lận:",
   "on first launch the App asks for permission to track. You can allow or deny it, and change it at any time in Settings › Privacy &amp; Security › Tracking. If you deny it, you will still see ads, but they will be less personalized.": "lần đầu mở, Ứng dụng xin quyền theo dõi. Bạn có thể cho phép hoặc từ chối, và đổi lựa chọn bất cứ lúc nào trong Cài đặt › Quyền riêng tư &amp; Bảo mật › Theo dõi. Nếu từ chối, bạn vẫn thấy quảng cáo nhưng ít được cá nhân hoá hơn.",
   "The App is intended for a general audience of English beginners and is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided personal information through the App, please contact us and we will help remove it.": "Ứng dụng dành cho người mới học tiếng Anh nói chung và không hướng tới trẻ em dưới 13 tuổi. Chúng tôi không cố ý thu thập thông tin cá nhân của trẻ em. Nếu bạn cho rằng một trẻ em đã cung cấp thông tin cá nhân qua Ứng dụng, vui lòng liên hệ để chúng tôi hỗ trợ xoá.",
-
   "2. Notifications": "2. Thông báo",
   "3. Advertising (Google AdMob)": "3. Quảng cáo (Google AdMob)",
   "4. Your choices": "4. Lựa chọn của bạn",
@@ -289,7 +277,6 @@
   "Notifications:": "Thông báo:",
   "allow or block them in your device settings, or with the “Send me update notifications” button in the App.": "cho phép hoặc chặn trong cài đặt của máy, hoặc bằng nút “Gửi thông báo cập nhật cho tôi” trong Ứng dụng.",
   "deleting a task removes it and its history; uninstalling the App removes all data stored on your device.": "xoá một việc sẽ xoá việc đó cùng lịch sử của nó; gỡ Ứng dụng sẽ xoá toàn bộ dữ liệu lưu trên máy bạn.",
-
   "1. Independence from Vietlott": "1. Tuyên bố độc lập",
   "2. What the App does": "2. Mục đích sử dụng",
   "3. Disclaimer": "3. Miễn trừ trách nhiệm",
@@ -326,7 +313,6 @@
   "Data stored by the App stays in the App’s private storage on your device. Connections to Vietlott’s website and between the ads SDK and Google use encrypted connections (HTTPS).": "Dữ liệu Ứng dụng lưu nằm trong vùng lưu trữ riêng của Ứng dụng trên máy bạn. Kết nối tới website của Vietlott và giữa SDK quảng cáo với Google đều được mã hoá (HTTPS).",
   "We may update this policy from time to time. Changes will be posted on this page with a new effective date. Continuing to use the App means you have read and understood this policy.": "Chúng tôi có thể cập nhật chính sách này theo thời gian. Mọi thay đổi sẽ được đăng trên trang này kèm ngày hiệu lực mới. Việc tiếp tục sử dụng Ứng dụng đồng nghĩa với việc bạn đã đọc và hiểu chính sách này.",
   "If you have any questions about this policy, please contact us:": "Nếu bạn có câu hỏi về chính sách này, vui lòng liên hệ với chúng tôi:",
-
   "Privacy Policy — J-Kids | J-Studio": "Chính sách quyền riêng tư — J-Kids | J-Studio",
   "Privacy Policy for the J-Kids math and logic app.": "Chính sách quyền riêng tư của ứng dụng toán và tư duy J-Kids.",
   "Effective date: November 11, 2026": "Ngày hiệu lực: 11/11/2026",
@@ -347,7 +333,6 @@
   "Vietnam’s Law on Personal Data Protection No. 91/2025/QH15, effective January 1, 2026.": "Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15, có hiệu lực từ 01/01/2026.",
   "Data-protection rules (GDPR) in the European Union and the United Kingdom, where they apply.": "Quy định bảo vệ dữ liệu (GDPR) tại Liên minh châu Âu và Vương quốc Anh, khi những quy định đó áp dụng.",
   "Developer: Bui Trung Kien": "Nhà phát triển: Bui Trung Kien",
-
   "Math, logic and IQ exercises with a new set of questions every time.": "Bài tập toán, tư duy logic và IQ, mỗi lần làm là một bộ câu hỏi mới.",
   "J-Kids — Math and logic practice | J-Studio": "J-Kids — Luyện toán và tư duy logic | J-Studio",
   "J-Kids — Math and logic practice": "J-Kids — Luyện toán và tư duy logic",
@@ -361,7 +346,6 @@
   "See how you’re doing.": "Xem kết quả của bạn.",
   "on first launch the App asks you to choose, and you can change it at any time in the App’s settings. Non-personalized ads are the default.": "lần đầu mở, Ứng dụng sẽ hỏi bạn chọn, và bạn có thể đổi bất cứ lúc nào trong phần cài đặt của Ứng dụng. Mặc định là quảng cáo không cá nhân hoá.",
   "The App is intended for a general audience and is not directed at children under 13. We do not knowingly collect personal information from children. Settings (including the ads choice) and the Print feature are protected by a short verification step.": "Ứng dụng dành cho người dùng phổ thông và không hướng tới trẻ em dưới 13 tuổi. Chúng tôi không cố ý thu thập thông tin cá nhân của trẻ em. Phần cài đặt (gồm cả lựa chọn quảng cáo) và tính năng In bài được bảo vệ bằng một bước xác minh ngắn.",
-
   "Climb the tower,": "Leo tháp tư duy,",
   "Math and logic exercises in levels that get harder step by step. Every question is generated fresh, so answers can’t be memorized.": "Bài tập toán và tư duy logic theo level, khó dần từng bước. Mỗi câu hỏi đều được tạo mới nên không thể học thuộc đáp án.",
   "Each floor of the tower is a level. Exercise types you’ve mastered lock automatically, so practice goes where it’s needed. Questions can be read aloud, too.": "Mỗi tầng tháp là một level. Dạng bài đã thành thạo sẽ tự động được khóa lại, để thời gian dành cho những dạng còn yếu. Câu hỏi cũng có thể được đọc to.",
@@ -375,5 +359,9 @@
   "J-Kids - Math &amp; Logic icon": "Biểu tượng J-Kids – Toán &amp; Tư duy",
   "J-Kids - Math &amp; Logic screenshot": "Ảnh màn hình J-Kids – Toán &amp; Tư duy",
   "J-Kids - Math &amp; Logic | J-Studio": "J-Kids – Toán &amp; Tư duy | J-Studio",
-  "Privacy Policy — J-Kids - Math &amp; Logic | J-Studio": "Chính sách quyền riêng tư — J-Kids – Toán &amp; Tư duy | J-Studio"
+  "Privacy Policy — J-Kids - Math &amp; Logic | J-Studio": "Chính sách quyền riêng tư — J-Kids – Toán &amp; Tư duy | J-Studio",
+  "Phone &amp; WhatsApp": "Điện thoại &amp; WhatsApp",
+  "Questions, bug reports or ideas about any J-Studio app? Email, call or message us on WhatsApp.": "Có câu hỏi, lỗi cần báo hay ý tưởng cho ứng dụng nào của J-Studio? Hãy gửi email, gọi điện hoặc nhắn tin qua WhatsApp.",
+  "Call": "Gọi điện",
+  "Chat on WhatsApp": "Nhắn tin qua WhatsApp"
 }

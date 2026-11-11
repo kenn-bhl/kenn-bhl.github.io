@@ -517,3 +517,11 @@ a:focus-visible, .btn:focus-visible { outline: 2px solid #2b7bf3; outline-offset
 .lang-menu a:hover { background: var(--bg-tertiary); color: var(--text-primary); }
 .lang-menu a[aria-current] { color: var(--text-primary); font-weight: 600; }
 @media (max-width: 479px) { .lang-menu .lang-name { display: none; } }
+
+/* Contact: the phone card holds two icon links (call, WhatsApp) instead of being one link. */
+div.contact-card:hover { background: var(--bg-secondary-solid); transform: none; }
+.contact-icons { display: flex; gap: 12px; margin-bottom: 12px; }
+.contact-icons .contact-icon { margin-bottom: 0; transition: transform .2s cubic-bezier(.2,.8,.2,1), opacity .15s; }
+.contact-icons .contact-icon:hover { transform: translateY(-1px); opacity: .9; }
+.contact-icon.whatsapp { background: #25d366; }
+.contact-icon.whatsapp svg { width: 26px; height: 26px; }

@@ -78,8 +78,10 @@ def sort_langs(langs):
 
 def page_langs(en_path):
     """Languages the English page en_path (root-relative file path) exists in."""
-    if en_path in ('index.html', 'contact.html'):
+    if en_path == 'index.html':
         return sort_langs(SITE_LANGS)
+    if en_path == 'contact.html':  # shared by every app, so it has every language any app has
+        return sort_langs(set(SITE_LANGS).union(*APP_LANGS.values()))
     folder = en_path.split('/')[0] if '/' in en_path else None
     if folder in APP_LANGS:
         return sort_langs(APP_LANGS[folder])
