@@ -1,3 +1,4 @@
 {
-  "languages": ["en", "vi"]
+  "languages": ["en", "vi"],
+  "contactLanguages": ["it", "th", "ru", "tr"]
 }

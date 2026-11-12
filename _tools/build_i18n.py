@@ -5,7 +5,8 @@ header language dropdown on every page.
     python3 _tools/build_i18n.py
 
 Which languages each page exists in:
-- index.html, contact.html: `languages` in _data/site.json.
+- index.html: `languages` in _data/site.json.
+- contact.html: site languages + `contactLanguages` in site.json + every app's languages.
 - <app>/index.html, <app>/privacy.html: `languages` of the app in _data/apps.json
   whose `landing` is that folder (falls back to the site languages).
 English ("en") is always the source and always exists.
@@ -32,12 +33,14 @@ I18N_DIR = os.path.join(ROOT, '_tools', 'i18n')
 LANG_NAMES = {
     'en': 'English', 'vi': 'Tiếng Việt', 'fr': 'Français', 'da': 'Dansk', 'es': 'Español',
     'pt': 'Português', 'de': 'Deutsch', 'zh': '简体中文', 'ja': '日本語', 'ko': '한국어',
-    'id': 'Bahasa Indonesia',
+    'id': 'Bahasa Indonesia', 'it': 'Italiano',
+    'th': 'ไทย', 'ru': 'Русский', 'tr': 'Türkçe',
 }
 HTML_LANG = {'zh': 'zh-Hans'}
 LANG_WORD = {
     'en': 'Language', 'vi': 'Ngôn ngữ', 'fr': 'Langue', 'da': 'Sprog', 'es': 'Idioma',
     'pt': 'Idioma', 'de': 'Sprache', 'zh': '语言', 'ja': '言語', 'ko': '언어', 'id': 'Bahasa',
+    'it': 'Lingua', 'th': 'ภาษา', 'ru': 'Язык', 'tr': 'Dil',
 }
 ORDER = list(LANG_NAMES)
 
@@ -61,7 +64,9 @@ def load_json(path):
     return json.load(open(os.path.join(ROOT, path), encoding='utf-8'))
 
 
-SITE_LANGS = load_json('_data/site.json')['languages']
+_SITE = load_json('_data/site.json')
+SITE_LANGS = _SITE['languages']
+CONTACT_EXTRA_LANGS = _SITE.get('contactLanguages', [])  # contact page only
 APP_LANGS = {}
 for _app in load_json('_data/apps.json')['apps']:
     if _app.get('landing'):
@@ -81,7 +86,7 @@ def page_langs(en_path):
     if en_path == 'index.html':
         return sort_langs(SITE_LANGS)
     if en_path == 'contact.html':  # shared by every app, so it has every language any app has
-        return sort_langs(set(SITE_LANGS).union(*APP_LANGS.values()))
+        return sort_langs(set(SITE_LANGS).union(CONTACT_EXTRA_LANGS, *APP_LANGS.values()))
     folder = en_path.split('/')[0] if '/' in en_path else None
     if folder in APP_LANGS:
         return sort_langs(APP_LANGS[folder])

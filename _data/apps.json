@@ -9,7 +9,7 @@
       "logo": "1000-words/logo.png",
       "main": "1000-words/main.png",
       "landing": "1000-words/",
-      "languages": ["en", "vi"],
+      "languages": ["en", "vi", "fr", "da", "es", "pt", "de", "zh", "ja", "ko", "id", "it", "th", "ru", "tr"],
       "appStoreUrl": "https://apps.apple.com/{locale}/app/1000-words/id6829815275",
       "googlePlayUrl": "coming_soon",
       "special_available": "",

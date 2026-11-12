@@ -65,7 +65,7 @@ python3 _tools/build_i18n.py   # after changing any English page, a translation,
 
 Which languages a page exists in:
 - `index.html`: `languages` in `_data/site.json`.
-- `contact.html` (shared by every app): every language in `site.json` plus every app's `languages`, so adding a language to an app also needs the contact strings in that language's `_tools/i18n/<lang>.json`.
+- `contact.html` (shared by every app): every language in `site.json` (`languages` plus the contact-only `contactLanguages`) plus every app's `languages`, so adding a language to an app also needs the contact strings in that language's `_tools/i18n/<lang>.json`.
 - An app's `index.html` and `privacy.html`: `languages` of that app in `_data/apps.json` (each app supports its own set; missing → the site languages). English always exists.
 
 Rules the build applies:
