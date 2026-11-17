@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tietosuojakäytäntö — Daily Task | J-Studio</title>
+  <meta name="description" content="Tehtävälistasovellus Daily Taskin tietosuojakäytäntö." />
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="../../assets/logo-192.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap" />
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ================= Header ================= -->
+  <header class="site-header" id="top">
+    <div class="bar">
+      <div class="nav-left">
+        <a class="brand link" href="../../" hreflang="en" aria-label="J-Studion etusivu">
+          <img src="../../assets/logo-192.png" alt="" width="28" height="28" />
+          J-Studio
+        </a>
+      </div>
+      <div class="nav-right">
+        <a class="text-link" href="../contact.html">Yhteystiedot</a>
+        <details class="lang-menu">
+          <summary aria-label="Kieli: Suomi"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="6.25" stroke="currentColor" stroke-width="1.3"/><path d="M1.75 8h12.5M8 1.75c1.7 1.8 2.5 3.9 2.5 6.25S9.7 12.45 8 14.25C6.3 12.45 5.5 10.35 5.5 8S6.3 3.55 8 1.75Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg><span class="lang-name">Suomi</span><svg class="chev" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+          <ul>
+            <li><a href="../../daily-task/privacy.html" hreflang="en" lang="en">English</a></li>
+            <li><a href="../../vi/daily-task/privacy.html" hreflang="vi" lang="vi">Tiếng Việt</a></li>
+            <li><a href="../../fr/daily-task/privacy.html" hreflang="fr" lang="fr">Français</a></li>
+            <li><a href="../../da/daily-task/privacy.html" hreflang="da" lang="da">Dansk</a></li>
+            <li><a href="../../es/daily-task/privacy.html" hreflang="es" lang="es">Español</a></li>
+            <li><a href="../../pt/daily-task/privacy.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
+            <li><a href="../../de/daily-task/privacy.html" hreflang="de" lang="de">Deutsch</a></li>
+            <li><a href="../../zh/daily-task/privacy.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+            <li><a href="../../ja/daily-task/privacy.html" hreflang="ja" lang="ja">日本語</a></li>
+            <li><a href="../../ko/daily-task/privacy.html" hreflang="ko" lang="ko">한국어</a></li>
+            <li><a href="../../id/daily-task/privacy.html" hreflang="id" lang="id">Bahasa Indonesia</a></li>
+            <li><a href="../../it/daily-task/privacy.html" hreflang="it" lang="it">Italiano</a></li>
+            <li><a href="../../th/daily-task/privacy.html" hreflang="th" lang="th">ไทย</a></li>
+            <li><a href="../../ru/daily-task/privacy.html" hreflang="ru" lang="ru">Русский</a></li>
+            <li><a href="../../tr/daily-task/privacy.html" hreflang="tr" lang="tr">Türkçe</a></li>
+            <li><a href="../../zh-Hant/daily-task/privacy.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+            <li><a href="../../pt-PT/daily-task/privacy.html" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a></li>
+            <li><a href="../../ar/daily-task/privacy.html" hreflang="ar" lang="ar">العربية</a></li>
+            <li><a href="../../bg/daily-task/privacy.html" hreflang="bg" lang="bg">Български</a></li>
+            <li><a href="../../bn/daily-task/privacy.html" hreflang="bn" lang="bn">বাংলা</a></li>
+            <li><a href="../../ca/daily-task/privacy.html" hreflang="ca" lang="ca">Català</a></li>
+            <li><a href="../../cs/daily-task/privacy.html" hreflang="cs" lang="cs">Čeština</a></li>
+            <li><a href="../../el/daily-task/privacy.html" hreflang="el" lang="el">Ελληνικά</a></li>
+            <li><a href="../../fa/daily-task/privacy.html" hreflang="fa" lang="fa">فارسی</a></li>
+            <li><a href="privacy.html" hreflang="fi" lang="fi" aria-current="page">Suomi</a></li>
+            <li><a href="../../fil/daily-task/privacy.html" hreflang="fil" lang="fil">Filipino</a></li>
+            <li><a href="../../he/daily-task/privacy.html" hreflang="he" lang="he">עברית</a></li>
+            <li><a href="../../hi/daily-task/privacy.html" hreflang="hi" lang="hi">हिन्दी</a></li>
+            <li><a href="../../hr/daily-task/privacy.html" hreflang="hr" lang="hr">Hrvatski</a></li>
+            <li><a href="../../hu/daily-task/privacy.html" hreflang="hu" lang="hu">Magyar</a></li>
+            <li><a href="../../ms/daily-task/privacy.html" hreflang="ms" lang="ms">Bahasa Melayu</a></li>
+            <li><a href="../../nb/daily-task/privacy.html" hreflang="nb" lang="nb">Norsk bokmål</a></li>
+            <li><a href="../../nl/daily-task/privacy.html" hreflang="nl" lang="nl">Nederlands</a></li>
+            <li><a href="../../pl/daily-task/privacy.html" hreflang="pl" lang="pl">Polski</a></li>
+            <li><a href="../../ro/daily-task/privacy.html" hreflang="ro" lang="ro">Română</a></li>
+            <li><a href="../../sk/daily-task/privacy.html" hreflang="sk" lang="sk">Slovenčina</a></li>
+            <li><a href="../../sl/daily-task/privacy.html" hreflang="sl" lang="sl">Slovenščina</a></li>
+            <li><a href="../../sr/daily-task/privacy.html" hreflang="sr" lang="sr">Српски</a></li>
+            <li><a href="../../sv/daily-task/privacy.html" hreflang="sv" lang="sv">Svenska</a></li>
+            <li><a href="../../uk/daily-task/privacy.html" hreflang="uk" lang="uk">Українська</a></li>
+          </ul>
+        </details>
+      </div>
+    </div>
+  </header>
+
+  <div class="shell">
+    <main class="legal">
+      <div class="container">
+
+        <!-- ================= Page head ================= -->
+        <header class="legal-head">
+          <a class="legal-app link" href="./">
+            <img src="../../daily-task/logo.png" alt="" width="40" height="40" />
+            Daily Task
+          </a>
+          <h1 class="t-title-1">Tietosuojakäytäntö</h1>
+          <p class="t-compact muted">Voimassa alkaen: 17. marraskuuta 2026</p>
+        </header>
+
+        <div class="legal-layout">
+          <!-- ================= On this page ================= -->
+          <nav class="legal-toc" aria-label="Tällä sivulla">
+            <p class="t-compact muted">Tällä sivulla</p>
+            <ol class="t-compact">
+              <li><a class="link" href="#information-stored-on-your-device">1. Laitteellesi tallennetut tiedot</a></li>
+              <li><a class="link" href="#notifications">2. Ilmoitukset</a></li>
+              <li><a class="link" href="#advertising-google-admob">3. Mainonta (Google AdMob)</a></li>
+              <li><a class="link" href="#your-choices">4. Valintasi</a></li>
+              <li><a class="link" href="#children-s-privacy">5. Lasten yksityisyys</a></li>
+              <li><a class="link" href="#data-sharing-and-selling">6. Tietojen jakaminen ja myynti</a></li>
+              <li><a class="link" href="#security">7. Tietoturva</a></li>
+              <li><a class="link" href="#changes-to-this-policy">8. Muutokset tähän käytäntöön</a></li>
+              <li><a class="link" href="#contact-us">9. Ota yhteyttä</a></li>
+            </ol>
+          </nav>
+
+          <!-- ================= Policy text ================= -->
+          <article class="legal-body">
+        <p>Tämä tietosuojakäytäntö kertoo, miten mobiilisovellus Daily Task (”Sovellus”, ”me”) käsittelee tietoja iOS- ja Android-laitteilla. Käyttämällä Sovellusta hyväksyt tämän käytännön.</p>
+
+        <div class="legal-summary">
+              <p class="t-compact muted">Lyhyesti</p>
+              <ul>
+            <li>Ei tiliä, rekisteröitymistä tai kirjautumista.</li>
+            <li>Tehtäväsi, ryhmäsi ja historiasi pysyvät laitteellasi. Emme koskaan vastaanota niitä.</li>
+            <li>Muistutukset ovat laitteellasi ajastettuja paikallisia ilmoituksia; palvelinta ei käytetä.</li>
+            <li>Sovellus näyttää yhden pienen Google AdMobin bannerimainoksen, joka voi kerätä laite- ja käyttötietoja alla kuvatulla tavalla.</li>
+          </ul>
+        </div>
+
+        <h2 id="information-stored-on-your-device">1. Laitteellesi tallennetut tiedot</h2>
+        <p>Sovellus tallentaa seuraavat tiedot vain paikallisesti laitteellesi, jotta se toimisi:</p>
+        <ul>
+          <li>Tehtäväsi ja merkkipäiväsi: otsikot, muistiinpanot, tyyppi, prioriteetti, ryhmä, toistosäännöt, määräpäivät ja muistutusajat.</li>
+          <li>Ryhmäsi: nimet ja värit.</li>
+          <li>Historiasi: mitkä tehtävät on tehty minäkin päivänä.</li>
+          <li>Muutamia sovellusasetuksia, kuten onko tervetulonäkymä ja ilmoituslupapyyntö jo näytetty, ja widgetissä näkyvä sivu.</li>
+        </ul>
+        <p>Jotta listasi näkyisi aloitusnäytön widgetissä, kopio päivän listasta säilytetään tallennustilassa, jonka jakavat laitteellasi vain Sovellus ja sen oma widget.</p>
+        <p>Näitä tietoja ei koskaan lähetetä meille eikä kenellekään muulle. Ne poistetaan, kun poistat Sovelluksen.</p>
+
+        <h2 id="notifications">2. Ilmoitukset</h2>
+        <p>Jos sallit ilmoitukset, Sovellus ajastaa laitteellesi paikallisia muistutuksia: klo 18, kun päivän tehtäviä on vielä kesken, toistuvalle tehtävälle valitsemaasi aikaan (”Muistuta klo”) sekä klo 9 merkkipäivää edeltävinä viitenä päivänä ja itse päivänä. Jotta ne tulisivat oikeaan paikalliseen aikaan, Sovellus lukee laitteen aikavyöhykkeen. Muistutukset luodaan ja toimitetaan kokonaan laitteellasi; ilmoitustietoja ei lähetetä meille eikä kolmansille osapuolille.</p>
+        <p>Voit ottaa ilmoitukset käyttöön tai pois milloin tahansa laitteen asetuksista. Sovellus toimii täysin ilman niitä.</p>
+
+        <h2 id="advertising-google-admob">3. Mainonta (Google AdMob)</h2>
+        <p>Sovellus on ilmainen, ja sen kustantaa yksi bannerimainos näytön alareunassa. Mainoksen toimittaa Google AdMob, Google LLC:n palvelu. Ponnahdus-, koko näytön tai videomainoksia ei ole. Mainoksia ei pyydetä ennen osiossa 4 kuvattuja suostumusvaiheita. Google Mobile Ads SDK voi kerätä automaattisesti seuraavia tietoja mainosten näyttämiseen, tehon mittaamiseen ja petosten estämiseen:</p>
+        <div class="legal-table">
+          <table>
+            <thead>
+              <tr><th>Tieto</th><th>Esimerkit</th><th>Tarkoitus</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Laitetunnisteet</td><td>Mainostunnus (IDFA iOS:ssä, mainostunnus Androidissa), IDFV</td><td>Mainonta, analytiikka</td></tr>
+              <tr><td>Likimääräinen sijainti</td><td>Päätelty IP-osoitteesta</td><td>Mainonta, analytiikka</td></tr>
+              <tr><td>Käyttötiedot</td><td>Sovelluksen avaukset, mainosten näytöt ja napautukset</td><td>Mainonta, analytiikka</td></tr>
+              <tr><td>Diagnostiikka</td><td>Mainos-SDK:n kaatumis- ja suorituskykytiedot</td><td>Analytiikka</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Mainos-SDK:lla ei ole pääsyä tehtäviisi, ryhmiisi tai historiaasi. Googlen tapaa käyttää näitä tietoja säätelevät Googlen omat käytännöt:</p>
+        <ul>
+          <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Googlen tietosuojakäytäntö</a></li>
+          <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Miten Google käyttää sen palveluja käyttävien sovellusten tietoja</a></li>
+          <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">AdMobin ja AdSensen tietojen käyttö</a></li>
+        </ul>
+
+        <h2 id="your-choices">4. Valintasi</h2>
+        <ul>
+          <li><strong>ETA, Iso-Britannia ja Sveitsi:</strong> jos laki sitä edellyttää, Googlen suostumuslomakkeella voit valita, saako tietojasi käyttää personoituun mainontaan. Voit muuttaa valintaasi milloin tahansa Kaikki tehtävät -näkymän alareunan ”Mainosten yksityisyys” -painikkeella.</li>
+          <li><strong>iOS – App Tracking Transparency:</strong> ensimmäisellä käynnistyskerralla Sovellus pyytää lupaa seurantaan. Voit sallia tai kieltää sen ja muuttaa valintaa milloin tahansa kohdassa Asetukset › Tietosuoja ja suojaus › Seuranta. Jos kiellät sen, näet bannerin edelleen, mutta mainokset ovat vähemmän personoituja.</li>
+          <li><strong>Android:</strong> voit nollata tai poistaa mainostunnuksesi tai kieltäytyä personoiduista mainoksista kohdassa Asetukset › Google › Mainokset (tai Asetukset › Yksityisyys › Mainokset).</li>
+          <li><strong>Ilmoitukset:</strong> salli tai estä ne laitteen asetuksista tai Sovelluksen ”Lähetä minulle ilmoituksia” -painikkeella.</li>
+          <li><strong>Poista tietosi:</strong> tehtävän poistaminen poistaa sen ja sen historian; Kaikki tehtävät -näkymän ”Poista valmiit” -painike poistaa kaikki valmiit kertatehtävät; Sovelluksen poistaminen poistaa kaikki laitteellesi tallennetut tiedot.</li>
+        </ul>
+
+        <h2 id="children-s-privacy">5. Lasten yksityisyys</h2>
+        <p>Sovellus on tarkoitettu suurelle yleisölle, eikä sitä ole suunnattu alle 13-vuotiaille lapsille. Emme tietoisesti kerää lasten henkilötietoja. Jos uskot, että lapsi on antanut henkilötietoja Sovelluksen kautta, ota meihin yhteyttä, niin autamme poistamaan ne.</p>
+
+        <h2 id="data-sharing-and-selling">6. Tietojen jakaminen ja myynti</h2>
+        <p>Emme myy henkilötietoja. Yllä kuvattujen Google AdMobin keräämien tietojen lisäksi Sovellus ei jaa tietoja kolmansille osapuolille.</p>
+
+        <h2 id="security">7. Tietoturva</h2>
+        <p>Sovelluksen tallentamat tiedot pysyvät Sovelluksen yksityisessä tallennustilassa laitteellasi. Mainos-SDK:n ja Googlen välinen tiedonsiirto käyttää salattuja yhteyksiä (HTTPS).</p>
+
+        <h2 id="changes-to-this-policy">8. Muutokset tähän käytäntöön</h2>
+        <p>Voimme päivittää tätä tietosuojakäytäntöä ajoittain. Muutokset julkaistaan tällä sivulla uuden voimaantulopäivän kanssa.</p>
+
+        <h2 id="contact-us">9. Ota yhteyttä</h2>
+        <p>Jos sinulla on kysyttävää tästä tietosuojakäytännöstä, ota meihin yhteyttä:</p>
+        <ul>
+          <li>Sähköposti: <a href="mailto:kenn.bhl@gmail.com?subject=Daily%20Task%20Privacy">kenn.bhl@gmail.com</a></li>
+          <li>Puhelin: <a href="tel:+84856011093">+84 856 011 093</a></li>
+          <li>Tukisivu: <a href="../contact.html">Yhteystiedot</a></li>
+        </ul>
+          </article>
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="site-footer dark">
+      <div class="container">
+        <div class="wide">
+          <div class="footer-grid">
+            <div class="footer-brand">
+              <a class="brand link" href="#top">
+                <img src="../../assets/logo-192.png" alt="" width="28" height="28" />
+                J-Studio
+              </a>
+            </div>
+            <div class="footer-col">
+              <p class="t-compact muted">Oppiminen</p>
+              <ul class="t-body">
+                <li><a class="link" href="../../j-kids/" hreflang="en">J-Kids - Math &amp; Logic</a></li>
+                <li><a class="link" href="../../1000-words/" hreflang="en">1000 Words</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <p class="t-compact muted">Elämäntapa</p>
+              <ul class="t-body">
+                <li><a class="link" href="./">Daily Task</a></li>
+                <li><a class="link" href="../../lay-so-vietlott/" hreflang="en">Lấy số Vietlott</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wordmark" aria-hidden="true">J-Studio</div>
+    </footer>
+  </div>
+
+  <script src="../../assets/js/anchors.js" defer></script>
+  <script src="../../assets/js/lang-menu.js" defer></script>
+</body>
+</html>

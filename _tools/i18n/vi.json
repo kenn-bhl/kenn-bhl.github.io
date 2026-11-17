@@ -363,5 +363,10 @@
   "Phone &amp; WhatsApp": "Điện thoại &amp; WhatsApp",
   "Questions, bug reports or ideas about any J-Studio app? Email, call or message us on WhatsApp.": "Có câu hỏi, lỗi cần báo hay ý tưởng cho ứng dụng nào của J-Studio? Hãy gửi email, gọi điện hoặc nhắn tin qua WhatsApp.",
   "Call": "Gọi điện",
-  "Chat on WhatsApp": "Nhắn tin qua WhatsApp"
+  "Chat on WhatsApp": "Nhắn tin qua WhatsApp",
+  "A home screen widget shows what’s left. Gentle notifications remind you of unfinished tasks, or at the time you choose.": "Widget trên màn hình chính cho thấy việc còn lại. Thông báo nhẹ nhàng nhắc bạn những việc chưa xong, hoặc đúng giờ bạn chọn.",
+  "Effective date: November 17, 2026": "Ngày hiệu lực: 17 tháng 11, 2026",
+  "Your tasks and anniversaries: titles, notes, type, priority, group, repeat rules, due dates and reminder times.": "Công việc và ngày kỷ niệm của bạn: tiêu đề, ghi chú, loại, mức ưu tiên, nhóm, quy tắc lặp lại, hạn chót và giờ nhắc.",
+  "If you allow notifications, the App schedules local reminders on your device: at 6 PM when tasks for the day are still unfinished, at the time you choose for a repeating task (“Notify me at”), and at 9 AM in the five days before and on the day of an anniversary. To deliver them at the right local time, the App reads your device’s time zone. Reminders are created and delivered entirely on your device; no notification data is sent to us or to any third party.": "Nếu bạn cho phép thông báo, Ứng dụng sẽ lên lịch nhắc nhở cục bộ trên thiết bị của bạn: lúc 18:00 khi trong ngày vẫn còn việc chưa xong, vào giờ bạn chọn cho một công việc lặp lại (“Thông báo lúc”), và lúc 9:00 trong năm ngày trước và vào đúng ngày kỷ niệm. Để gửi đúng giờ địa phương, Ứng dụng đọc múi giờ của thiết bị. Nhắc nhở được tạo và gửi hoàn toàn trên thiết bị của bạn; không có dữ liệu thông báo nào được gửi cho chúng tôi hay bất kỳ bên thứ ba nào.",
+  "deleting a task removes it and its history; the “Delete completed” button in All tasks removes every completed one-time task; uninstalling the App removes all data stored on your device.": "xoá một công việc sẽ xoá công việc đó và lịch sử của nó; nút “Xoá việc đã xong” trong Tất cả công việc xoá mọi công việc một lần đã hoàn thành; gỡ cài đặt Ứng dụng sẽ xoá toàn bộ dữ liệu lưu trên thiết bị."
 }

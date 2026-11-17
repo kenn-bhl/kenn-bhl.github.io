@@ -74,3 +74,4 @@ Rules the build applies:
 - The header language dropdown (`<details class="lang-menu">` after the Contact link in `.nav-right`, current language marked `aria-current`, names written in their own language) lists only the languages that page exists in. `assets/js/lang-menu.js` closes it on an outside click or Escape. Never write the menu by hand.
 - Translated pages whose English page or language was removed are deleted.
 - A new language code must be added to `LANG_NAMES` and `LANG_WORD` in `build_i18n.py`.
+- Language folders use the 2-letter code; a second variant of the same language uses the full code (`zh` = Simplified, `zh-Hant`; `pt` = Brazil, `pt-PT`). Right-to-left languages (`RTL` in `build_i18n.py`: ar, fa, he) get `<html dir="rtl">`.

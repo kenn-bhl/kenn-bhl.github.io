@@ -52,7 +52,7 @@
       "logo": "daily-task/logo.png",
       "main": "daily-task/main.png",
       "landing": "daily-task/",
-      "languages": ["en", "vi"],
+      "languages": ["en", "ar", "bg", "bn", "ca", "cs", "da", "de", "el", "es", "fa", "fi", "fil", "fr", "he", "hi", "hr", "hu", "id", "it", "ja", "ko", "ms", "nb", "nl", "pl", "pt", "pt-PT", "ro", "ru", "sk", "sl", "sr", "sv", "th", "tr", "uk", "vi", "zh", "zh-Hant"],
       "appStoreUrl": "coming_soon",
       "googlePlayUrl": "coming_soon",
       "position": 100

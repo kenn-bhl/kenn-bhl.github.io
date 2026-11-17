@@ -32,15 +32,27 @@ I18N_DIR = os.path.join(ROOT, '_tools', 'i18n')
 # Name of each language in its own language, and the html lang attribute.
 LANG_NAMES = {
     'en': 'English', 'vi': 'Tiếng Việt', 'fr': 'Français', 'da': 'Dansk', 'es': 'Español',
-    'pt': 'Português', 'de': 'Deutsch', 'zh': '简体中文', 'ja': '日本語', 'ko': '한국어',
+    'pt': 'Português (Brasil)', 'de': 'Deutsch', 'zh': '简体中文', 'ja': '日本語', 'ko': '한국어',
     'id': 'Bahasa Indonesia', 'it': 'Italiano',
     'th': 'ไทย', 'ru': 'Русский', 'tr': 'Türkçe',
+    'zh-Hant': '繁體中文', 'pt-PT': 'Português (Portugal)', 'ar': 'العربية', 'bg': 'Български',
+    'bn': 'বাংলা', 'ca': 'Català', 'cs': 'Čeština', 'el': 'Ελληνικά', 'fa': 'فارسی', 'fi': 'Suomi',
+    'fil': 'Filipino', 'he': 'עברית', 'hi': 'हिन्दी', 'hr': 'Hrvatski', 'hu': 'Magyar',
+    'ms': 'Bahasa Melayu', 'nb': 'Norsk bokmål', 'nl': 'Nederlands', 'pl': 'Polski', 'ro': 'Română',
+    'sk': 'Slovenčina', 'sl': 'Slovenščina', 'sr': 'Српски', 'sv': 'Svenska', 'uk': 'Українська',
 }
-HTML_LANG = {'zh': 'zh-Hans'}
+HTML_LANG = {'zh': 'zh-Hans', 'pt': 'pt-BR'}
+# Right-to-left languages: <html dir="rtl">.
+RTL = {'ar', 'fa', 'he'}
 LANG_WORD = {
     'en': 'Language', 'vi': 'Ngôn ngữ', 'fr': 'Langue', 'da': 'Sprog', 'es': 'Idioma',
     'pt': 'Idioma', 'de': 'Sprache', 'zh': '语言', 'ja': '言語', 'ko': '언어', 'id': 'Bahasa',
     'it': 'Lingua', 'th': 'ภาษา', 'ru': 'Язык', 'tr': 'Dil',
+    'zh-Hant': '語言', 'pt-PT': 'Idioma', 'ar': 'اللغة', 'bg': 'Език', 'bn': 'ভাষা', 'ca': 'Idioma',
+    'cs': 'Jazyk', 'el': 'Γλώσσα', 'fa': 'زبان', 'fi': 'Kieli', 'fil': 'Wika', 'he': 'שפה',
+    'hi': 'भाषा', 'hr': 'Jezik', 'hu': 'Nyelv', 'ms': 'Bahasa', 'nb': 'Språk', 'nl': 'Taal',
+    'pl': 'Język', 'ro': 'Limbă', 'sk': 'Jazyk', 'sl': 'Jezik', 'sr': 'Језик', 'sv': 'Språk',
+    'uk': 'Мова',
 }
 ORDER = list(LANG_NAMES)
 
@@ -237,7 +249,8 @@ def build():
         for lang in page_langs(en_path):
             if lang == 'en':
                 continue
-            html = re.sub(r'<html lang="en">', f'<html lang="{HTML_LANG.get(lang, lang)}">', source, count=1)
+            rtl = ' dir="rtl"' if lang in RTL else ''
+            html = re.sub(r'<html lang="en">', f'<html lang="{HTML_LANG.get(lang, lang)}"{rtl}>', source, count=1)
             html = re.sub(r'\b(href|src)="([^"]*)"', lambda m: rewrite_link(m, en_path, lang), html)
             html = re.sub(r'(<meta property="og:image" content=")([^"]*)(")',
                           lambda m: m.group(1) + posixpath.relpath(
