@@ -158,17 +158,41 @@ def rewrite_link(m, en_path, lang):
 
 # ---------- Language dropdown ----------
 
+CLOSE_WORD = {
+    'en': 'Close', 'vi': 'Đóng', 'fr': 'Fermer', 'da': 'Luk', 'es': 'Cerrar', 'pt': 'Fechar',
+    'de': 'Schließen', 'zh': '关闭', 'ja': '閉じる', 'ko': '닫기', 'id': 'Tutup', 'it': 'Chiudi',
+    'th': 'ปิด', 'ru': 'Закрыть', 'tr': 'Kapat', 'zh-Hant': '關閉', 'pt-PT': 'Fechar',
+    'ar': 'إغلاق', 'bg': 'Затвори', 'bn': 'বন্ধ করুন', 'ca': 'Tanca', 'cs': 'Zavřít', 'el': 'Κλείσιμο',
+    'fa': 'بستن', 'fi': 'Sulje', 'fil': 'Isara', 'he': 'סגירה', 'hi': 'बंद करें', 'hr': 'Zatvori',
+    'hu': 'Bezárás', 'ms': 'Tutup', 'nb': 'Lukk', 'nl': 'Sluiten', 'pl': 'Zamknij', 'ro': 'Închide',
+    'sk': 'Zavrieť', 'sl': 'Zapri', 'sr': 'Затвори', 'sv': 'Stäng', 'uk': 'Закрити',
+}
+CLOSE_ICON = ('<svg viewBox="0 0 16 16" fill="none" aria-hidden="true">'
+              '<path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>')
+CHECK_ICON = ('<svg class="lang-check" viewBox="0 0 16 16" fill="none" aria-hidden="true">'
+              '<path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+
+
 def lang_menu(en_path, lang):
+    """Header button + popup with a grid of every language the page exists in."""
     here = out_path(en_path, lang)
     current = LANG_NAMES[lang]
     items = []
     for code in page_langs(en_path):
+        tag = HTML_LANG.get(code, code)
         cur = ' aria-current="page"' if code == lang else ''
-        items.append(f'            <li><a href="{rel_link(here, out_path(en_path, code))}" '
-                     f'hreflang="{HTML_LANG.get(code, code)}" lang="{HTML_LANG.get(code, code)}"{cur}>{LANG_NAMES[code]}</a></li>')
+        check = CHECK_ICON if code == lang else ''
+        items.append(f'              <li><a href="{rel_link(here, out_path(en_path, code))}" '
+                     f'hreflang="{tag}" lang="{tag}"{cur}><span class="lang-native" dir="{"rtl" if code in RTL else "ltr"}">{LANG_NAMES[code]}</span>'
+                     f'<span class="lang-code">{tag}</span>{check}</a></li>')
     return ('\n        <details class="lang-menu">'
             f'\n          <summary aria-label="{LANG_WORD[lang]}: {current}">{GLOBE}<span class="lang-name">{current}</span>{CHEVRON}</summary>'
-            '\n          <ul>\n' + '\n'.join(items) + '\n          </ul>\n        </details>')
+            f'\n          <div class="lang-sheet" role="dialog" aria-modal="true" aria-label="{LANG_WORD[lang]}">'
+            '\n            <div class="lang-panel">'
+            f'\n              <div class="lang-head"><p class="lang-title">{GLOBE}{LANG_WORD[lang]}</p>'
+            f'<button type="button" class="lang-close" aria-label="{CLOSE_WORD[lang]}">{CLOSE_ICON}</button></div>'
+            '\n              <ul class="lang-grid">\n' + '\n'.join(items) +
+            '\n              </ul>\n            </div>\n          </div>\n        </details>')
 
 
 def strip_lang_menu(html):
