@@ -379,9 +379,7 @@
   "Your settings (audio on or off, personalised or non-personalised ads).": "Cài đặt của bạn (bật hoặc tắt âm thanh, quảng cáo cá nhân hoá hoặc không).",
   "Camera and photos:": "Camera và ảnh:",
   "when you add a word, you can take a picture or choose one from your photo library. The App asks for this access only when you tap Camera or Library. The picture is cropped, resized and saved in the App’s private storage on your device. It is never uploaded.": "khi thêm từ, bạn có thể chụp ảnh hoặc chọn ảnh từ thư viện. App chỉ xin quyền này khi bạn bấm Chụp ảnh hoặc Thư viện. Ảnh được cắt, thu nhỏ và lưu trong bộ nhớ riêng của App trên máy bạn. Ảnh không bao giờ được tải lên.",
-  "IDFA on iOS (only if you allow tracking), IDFV. The App does not access the Android Advertising ID.": "IDFA trên iOS (chỉ khi bạn cho phép theo dõi), IDFV. App không truy cập Advertising ID của Android.",
   "By default, the App requests non-personalised ads only. Ads are personalised only if you turn on Personalised ads in Settings › Ads. All ads are limited to content suitable for all ages.": "Mặc định, App chỉ yêu cầu quảng cáo không cá nhân hoá. Quảng cáo chỉ được cá nhân hoá khi bạn bật Quảng cáo được cá nhân hoá trong Cài đặt › Quảng cáo. Mọi quảng cáo đều giới hạn ở nội dung phù hợp với mọi lứa tuổi.",
   "In the App:": "Trong App:",
-  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "Cài đặt › Quảng cáo cho phép bạn chọn quảng cáo cá nhân hoá hoặc không bất cứ lúc nào. Mặc định là quảng cáo không cá nhân hoá.",
-  "the App does not access your Advertising ID. You can also opt out of personalized ads in Settings › Google › Ads (or Settings › Privacy › Ads).": "App không truy cập Advertising ID của bạn. Bạn cũng có thể tắt quảng cáo cá nhân hoá trong Cài đặt › Google › Quảng cáo (hoặc Cài đặt › Quyền riêng tư › Quảng cáo)."
+  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "Cài đặt › Quảng cáo cho phép bạn chọn quảng cáo cá nhân hoá hoặc không bất cứ lúc nào. Mặc định là quảng cáo không cá nhân hoá."
 }

@@ -187,9 +187,7 @@
   "Your settings (audio on or off, personalised or non-personalised ads).": "การตั้งค่าของคุณ (เปิดหรือปิดเสียง โฆษณาที่ปรับให้เหมาะกับคุณหรือไม่)",
   "Camera and photos:": "กล้องและรูปภาพ:",
   "when you add a word, you can take a picture or choose one from your photo library. The App asks for this access only when you tap Camera or Library. The picture is cropped, resized and saved in the App’s private storage on your device. It is never uploaded.": "เมื่อเพิ่มคำ คุณสามารถถ่ายรูปหรือเลือกรูปจากคลังภาพได้ แอปจะขอสิทธิ์นี้เฉพาะเมื่อคุณแตะ กล้อง หรือ คลังภาพ เท่านั้น รูปจะถูกครอป ย่อขนาด และบันทึกไว้ในพื้นที่จัดเก็บส่วนตัวของแอปบนอุปกรณ์ของคุณ และจะไม่ถูกอัปโหลดเลย",
-  "IDFA on iOS (only if you allow tracking), IDFV. The App does not access the Android Advertising ID.": "IDFA บน iOS (เฉพาะเมื่อคุณอนุญาตการติดตาม), IDFV แอปไม่เข้าถึงรหัสโฆษณาของ Android",
   "By default, the App requests non-personalised ads only. Ads are personalised only if you turn on Personalised ads in Settings › Ads. All ads are limited to content suitable for all ages.": "โดยค่าเริ่มต้น แอปจะขอเฉพาะโฆษณาที่ไม่ได้ปรับให้เหมาะกับคุณ โฆษณาจะถูกปรับให้เหมาะกับคุณก็ต่อเมื่อคุณเปิด โฆษณาที่ปรับให้เหมาะกับคุณ ใน การตั้งค่า › โฆษณา เท่านั้น โฆษณาทั้งหมดจำกัดเฉพาะเนื้อหาที่เหมาะกับทุกวัย",
   "In the App:": "ในแอป:",
-  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "การตั้งค่า › โฆษณา ให้คุณเลือกโฆษณาที่ปรับให้เหมาะกับคุณหรือไม่ได้ทุกเมื่อ ค่าเริ่มต้นคือโฆษณาที่ไม่ได้ปรับให้เหมาะกับคุณ",
-  "the App does not access your Advertising ID. You can also opt out of personalized ads in Settings › Google › Ads (or Settings › Privacy › Ads).": "แอปไม่เข้าถึงรหัสโฆษณาของคุณ คุณยังปิดโฆษณาที่ปรับให้เหมาะกับคุณได้ใน การตั้งค่า › Google › โฆษณา (หรือ การตั้งค่า › ความเป็นส่วนตัว › โฆษณา)"
+  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "การตั้งค่า › โฆษณา ให้คุณเลือกโฆษณาที่ปรับให้เหมาะกับคุณหรือไม่ได้ทุกเมื่อ ค่าเริ่มต้นคือโฆษณาที่ไม่ได้ปรับให้เหมาะกับคุณ"
 }

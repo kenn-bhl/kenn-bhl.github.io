@@ -241,9 +241,7 @@
   "Your settings (audio on or off, personalised or non-personalised ads).": "設定（音声のオン／オフ、パーソナライズド広告かどうか）。",
   "Camera and photos:": "カメラと写真：",
   "when you add a word, you can take a picture or choose one from your photo library. The App asks for this access only when you tap Camera or Library. The picture is cropped, resized and saved in the App’s private storage on your device. It is never uploaded.": "単語を追加するときに、写真を撮るか、写真ライブラリから選ぶことができます。本アプリがこのアクセスを求めるのは「カメラ」または「ライブラリ」をタップしたときだけです。画像は切り抜き・縮小され、端末内の本アプリ専用の領域に保存されます。アップロードされることはありません。",
-  "IDFA on iOS (only if you allow tracking), IDFV. The App does not access the Android Advertising ID.": "iOS の IDFA（トラッキングを許可した場合のみ）、IDFV。本アプリは Android の広告 ID にアクセスしません。",
   "By default, the App requests non-personalised ads only. Ads are personalised only if you turn on Personalised ads in Settings › Ads. All ads are limited to content suitable for all ages.": "初期設定では、本アプリはパーソナライズされていない広告のみをリクエストします。「設定 › 広告」で「パーソナライズド広告」をオンにした場合にのみ、広告がパーソナライズされます。すべての広告は全年齢向けの内容に限定されています。",
   "In the App:": "アプリ内：",
-  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "「設定 › 広告」で、パーソナライズド広告かどうかをいつでも選べます。初期設定はパーソナライズされていない広告です。",
-  "the App does not access your Advertising ID. You can also opt out of personalized ads in Settings › Google › Ads (or Settings › Privacy › Ads).": "本アプリは広告 ID にアクセスしません。「設定 › Google › 広告」（または「設定 › プライバシー › 広告」）からパーソナライズド広告を無効にすることもできます。"
+  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "「設定 › 広告」で、パーソナライズド広告かどうかをいつでも選べます。初期設定はパーソナライズされていない広告です。"
 }
