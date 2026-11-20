@@ -176,5 +176,20 @@
   "allow or block them in your device settings, or with the “Send me update notifications” button in the App.": "อนุญาตหรือบล็อกได้ในการตั้งค่าอุปกรณ์ หรือด้วยปุ่ม “ส่งการแจ้งเตือนให้ฉัน” ในแอป",
   "deleting a task removes it and its history; the “Delete completed” button in All tasks removes every completed one-time task; uninstalling the App removes all data stored on your device.": "การลบงานจะลบงานนั้นพร้อมประวัติ ปุ่ม “ลบที่เสร็จแล้ว” ในงานทั้งหมดจะลบงานครั้งเดียวที่เสร็จแล้วทั้งหมด การถอนการติดตั้งแอปจะลบข้อมูลทั้งหมดที่เก็บในอุปกรณ์ของคุณ",
   "The App is intended for a general audience and is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided personal information through the App, please contact us and we will help remove it.": "แอปนี้มีไว้สำหรับผู้ใช้ทั่วไปและไม่ได้มุ่งเป้าไปที่เด็กอายุต่ำกว่า 13 ปี เราไม่เก็บข้อมูลส่วนบุคคลจากเด็กโดยเจตนา หากคุณเชื่อว่าเด็กได้ให้ข้อมูลส่วนบุคคลผ่านแอป โปรดติดต่อเรา แล้วเราจะช่วยลบข้อมูลนั้น",
-  "Privacy Policy for the Daily Task to-do list app.": "นโยบายความเป็นส่วนตัวของแอปรายการสิ่งที่ต้องทำ Daily Task"
+  "Privacy Policy for the Daily Task to-do list app.": "นโยบายความเป็นส่วนตัวของแอปรายการสิ่งที่ต้องทำ Daily Task",
+  "Pictures, audio and spelling games help beginners learn the words they’ll use every day. You can add your own words too.": "ภาพ เสียง และเกมสะกดคำช่วยให้ผู้เริ่มต้นเรียนรู้คำที่ใช้ทุกวัน คุณยังเพิ่มคำศัพท์ของคุณเองได้ด้วย",
+  "20 exercises at a time.": "ครั้งละ 20 แบบฝึกหัด",
+  "20 exercises at a time illustration": "ภาพประกอบครั้งละ 20 แบบฝึกหัด",
+  "Effective date: November 21, 2026": "วันที่มีผลบังคับใช้: 21 พฤศจิกายน 2026",
+  "Your learning progress, the words you add and their pictures stay on your device.": "ความคืบหน้าในการเรียน คำที่คุณเพิ่ม และรูปภาพของคำเหล่านั้นจะอยู่ในอุปกรณ์ของคุณ",
+  "Your learning progress (words learned, words you marked as known, lesson scores, session level).": "ความคืบหน้าในการเรียน (คำที่เรียนแล้ว คำที่คุณทำเครื่องหมายว่ารู้แล้ว คะแนนบทเรียน ระดับ)",
+  "Words you add yourself (English word, IPA, translation) and their pictures.": "คำที่คุณเพิ่มเอง (คำภาษาอังกฤษ IPA คำแปล) และรูปภาพของคำเหล่านั้น",
+  "Your settings (audio on or off, personalised or non-personalised ads).": "การตั้งค่าของคุณ (เปิดหรือปิดเสียง โฆษณาที่ปรับให้เหมาะกับคุณหรือไม่)",
+  "Camera and photos:": "กล้องและรูปภาพ:",
+  "when you add a word, you can take a picture or choose one from your photo library. The App asks for this access only when you tap Camera or Library. The picture is cropped, resized and saved in the App’s private storage on your device. It is never uploaded.": "เมื่อเพิ่มคำ คุณสามารถถ่ายรูปหรือเลือกรูปจากคลังภาพได้ แอปจะขอสิทธิ์นี้เฉพาะเมื่อคุณแตะ กล้อง หรือ คลังภาพ เท่านั้น รูปจะถูกครอป ย่อขนาด และบันทึกไว้ในพื้นที่จัดเก็บส่วนตัวของแอปบนอุปกรณ์ของคุณ และจะไม่ถูกอัปโหลดเลย",
+  "IDFA on iOS (only if you allow tracking), IDFV. The App does not access the Android Advertising ID.": "IDFA บน iOS (เฉพาะเมื่อคุณอนุญาตการติดตาม), IDFV แอปไม่เข้าถึงรหัสโฆษณาของ Android",
+  "By default, the App requests non-personalised ads only. Ads are personalised only if you turn on Personalised ads in Settings › Ads. All ads are limited to content suitable for all ages.": "โดยค่าเริ่มต้น แอปจะขอเฉพาะโฆษณาที่ไม่ได้ปรับให้เหมาะกับคุณ โฆษณาจะถูกปรับให้เหมาะกับคุณก็ต่อเมื่อคุณเปิด โฆษณาที่ปรับให้เหมาะกับคุณ ใน การตั้งค่า › โฆษณา เท่านั้น โฆษณาทั้งหมดจำกัดเฉพาะเนื้อหาที่เหมาะกับทุกวัย",
+  "In the App:": "ในแอป:",
+  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "การตั้งค่า › โฆษณา ให้คุณเลือกโฆษณาที่ปรับให้เหมาะกับคุณหรือไม่ได้ทุกเมื่อ ค่าเริ่มต้นคือโฆษณาที่ไม่ได้ปรับให้เหมาะกับคุณ",
+  "the App does not access your Advertising ID. You can also opt out of personalized ads in Settings › Google › Ads (or Settings › Privacy › Ads).": "แอปไม่เข้าถึงรหัสโฆษณาของคุณ คุณยังปิดโฆษณาที่ปรับให้เหมาะกับคุณได้ใน การตั้งค่า › Google › โฆษณา (หรือ การตั้งค่า › ความเป็นส่วนตัว › โฆษณา)"
 }

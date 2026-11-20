@@ -230,5 +230,20 @@
   "allow or block them in your device settings, or with the “Send me update notifications” button in the App.": "可在设备设置中允许或阻止，或使用本应用中的“给我发送通知”按钮。",
   "deleting a task removes it and its history; the “Delete completed” button in All tasks removes every completed one-time task; uninstalling the App removes all data stored on your device.": "删除任务会同时删除其记录；“所有任务”中的“删除已完成”按钮会删除所有已完成的一次性任务；卸载本应用会删除设备上存储的所有数据。",
   "The App is intended for a general audience and is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided personal information through the App, please contact us and we will help remove it.": "本应用面向普通大众，并非针对 13 岁以下儿童。我们不会故意收集儿童的个人信息。如果你认为有儿童通过本应用提供了个人信息，请联系我们，我们会协助删除。",
-  "Privacy Policy for the Daily Task to-do list app.": "待办清单应用 Daily Task 的隐私政策。"
+  "Privacy Policy for the Daily Task to-do list app.": "待办清单应用 Daily Task 的隐私政策。",
+  "Pictures, audio and spelling games help beginners learn the words they’ll use every day. You can add your own words too.": "通过图片、发音和拼写游戏，帮助初学者掌握日常会用到的单词。你还可以添加自己的单词。",
+  "20 exercises at a time.": "每次 20 个练习。",
+  "20 exercises at a time illustration": "每次 20 个练习的插图",
+  "Effective date: November 21, 2026": "生效日期：2026 年 11 月 21 日",
+  "Your learning progress, the words you add and their pictures stay on your device.": "你的学习进度、你添加的单词及其图片都保存在你的设备上。",
+  "Your learning progress (words learned, words you marked as known, lesson scores, session level).": "你的学习进度（已学单词、你标记为已掌握的单词、课程得分、学习等级）。",
+  "Words you add yourself (English word, IPA, translation) and their pictures.": "你自己添加的单词（英语单词、音标、翻译）及其图片。",
+  "Your settings (audio on or off, personalised or non-personalised ads).": "你的设置（开启或关闭发音、个性化或非个性化广告）。",
+  "Camera and photos:": "相机和照片：",
+  "when you add a word, you can take a picture or choose one from your photo library. The App asks for this access only when you tap Camera or Library. The picture is cropped, resized and saved in the App’s private storage on your device. It is never uploaded.": "添加单词时，你可以拍照或从相册中选择图片。只有在你点按“拍照”或“相册”时，本应用才会请求此权限。图片会被裁剪、缩小并保存在你设备上本应用的私有存储中，绝不会上传。",
+  "IDFA on iOS (only if you allow tracking), IDFV. The App does not access the Android Advertising ID.": "iOS 上的 IDFA（仅在你允许跟踪时）、IDFV。本应用不会访问 Android 广告 ID。",
+  "By default, the App requests non-personalised ads only. Ads are personalised only if you turn on Personalised ads in Settings › Ads. All ads are limited to content suitable for all ages.": "默认情况下，本应用只请求非个性化广告。只有当你在 设置 › 广告 中开启“个性化广告”时，广告才会个性化。所有广告都仅限适合所有年龄段的内容。",
+  "In the App:": "在应用内：",
+  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "你可以随时在 设置 › 广告 中选择个性化或非个性化广告。默认为非个性化广告。",
+  "the App does not access your Advertising ID. You can also opt out of personalized ads in Settings › Google › Ads (or Settings › Privacy › Ads).": "本应用不会访问你的广告 ID。你也可以在 设置 › Google › 广告（或 设置 › 隐私 › 广告）中停用个性化广告。"
 }

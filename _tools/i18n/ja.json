@@ -230,5 +230,20 @@
   "allow or block them in your device settings, or with the “Send me update notifications” button in the App.": "端末の設定、または本アプリの「通知を受け取る」ボタンで許可・ブロックできます。",
   "deleting a task removes it and its history; the “Delete completed” button in All tasks removes every completed one-time task; uninstalling the App removes all data stored on your device.": "タスクを削除すると、そのタスクと履歴が削除されます。「すべてのタスク」の「完了を削除」ボタンで、完了した単発タスクをすべて削除できます。本アプリをアンインストールすると、端末に保存されたすべてのデータが削除されます。",
   "The App is intended for a general audience and is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided personal information through the App, please contact us and we will help remove it.": "本アプリは一般向けであり、13歳未満の子どもを対象としていません。子どもから個人情報を意図的に収集することはありません。子どもが本アプリを通じて個人情報を提供したと思われる場合は、ご連絡ください。削除をお手伝いします。",
-  "Privacy Policy for the Daily Task to-do list app.": "ToDoリストアプリ Daily Task のプライバシーポリシー。"
+  "Privacy Policy for the Daily Task to-do list app.": "ToDoリストアプリ Daily Task のプライバシーポリシー。",
+  "Pictures, audio and spelling games help beginners learn the words they’ll use every day. You can add your own words too.": "イラスト、音声、つづりゲームで、初心者が毎日使う単語を身につけられます。自分で単語を追加することもできます。",
+  "20 exercises at a time.": "一度に 20 問。",
+  "20 exercises at a time illustration": "一度に 20 問のイラスト",
+  "Effective date: November 21, 2026": "施行日：2026 年 11 月 21 日",
+  "Your learning progress, the words you add and their pictures stay on your device.": "学習の進み具合、追加した単語とその画像はお使いの端末に保存されます。",
+  "Your learning progress (words learned, words you marked as known, lesson scores, session level).": "学習の進み具合（学習済みの単語、知っている単語としてマークした単語、レッスンのスコア、レベル）。",
+  "Words you add yourself (English word, IPA, translation) and their pictures.": "自分で追加した単語（英単語、発音記号、訳）とその画像。",
+  "Your settings (audio on or off, personalised or non-personalised ads).": "設定（音声のオン／オフ、パーソナライズド広告かどうか）。",
+  "Camera and photos:": "カメラと写真：",
+  "when you add a word, you can take a picture or choose one from your photo library. The App asks for this access only when you tap Camera or Library. The picture is cropped, resized and saved in the App’s private storage on your device. It is never uploaded.": "単語を追加するときに、写真を撮るか、写真ライブラリから選ぶことができます。本アプリがこのアクセスを求めるのは「カメラ」または「ライブラリ」をタップしたときだけです。画像は切り抜き・縮小され、端末内の本アプリ専用の領域に保存されます。アップロードされることはありません。",
+  "IDFA on iOS (only if you allow tracking), IDFV. The App does not access the Android Advertising ID.": "iOS の IDFA（トラッキングを許可した場合のみ）、IDFV。本アプリは Android の広告 ID にアクセスしません。",
+  "By default, the App requests non-personalised ads only. Ads are personalised only if you turn on Personalised ads in Settings › Ads. All ads are limited to content suitable for all ages.": "初期設定では、本アプリはパーソナライズされていない広告のみをリクエストします。「設定 › 広告」で「パーソナライズド広告」をオンにした場合にのみ、広告がパーソナライズされます。すべての広告は全年齢向けの内容に限定されています。",
+  "In the App:": "アプリ内：",
+  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "「設定 › 広告」で、パーソナライズド広告かどうかをいつでも選べます。初期設定はパーソナライズされていない広告です。",
+  "the App does not access your Advertising ID. You can also opt out of personalized ads in Settings › Google › Ads (or Settings › Privacy › Ads).": "本アプリは広告 ID にアクセスしません。「設定 › Google › 広告」（または「設定 › プライバシー › 広告」）からパーソナライズド広告を無効にすることもできます。"
 }
