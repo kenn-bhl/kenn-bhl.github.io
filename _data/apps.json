@@ -98,6 +98,21 @@
       "googlePlayUrl": "coming_soon",
       "special_available": "us",
       "position": 250
+    },
+    {
+      "id": "korea-lotto",
+      "group": "Life",
+      "name": "Korea Lotto",
+      "shortDescription": "Generate Korean Lotto 6/45 numbers with your own filter rules.",
+      "age": "19+",
+      "logo": "korea-lotto/logo.png",
+      "main": "https://placehold.co/600x400",
+      "landing": "korea-lotto/",
+      "languages": ["en", "ko"],
+      "appStoreUrl": "coming_soon",
+      "googlePlayUrl": "coming_soon",
+      "special_available": "kr",
+      "position": 260
     }
   ]
 }

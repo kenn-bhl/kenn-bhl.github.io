@@ -385,5 +385,9 @@
   "when you add a word, you can take a picture or choose one from your photo library. The App asks for this access only when you tap Camera or Library. The picture is cropped, resized and saved in the App’s private storage on your device. It is never uploaded.": "khi thêm từ, bạn có thể chụp ảnh hoặc chọn ảnh từ thư viện. App chỉ xin quyền này khi bạn bấm Chụp ảnh hoặc Thư viện. Ảnh được cắt, thu nhỏ và lưu trong bộ nhớ riêng của App trên máy bạn. Ảnh không bao giờ được tải lên.",
   "By default, the App requests non-personalised ads only. Ads are personalised only if you turn on Personalised ads in Settings › Ads. All ads are limited to content suitable for all ages.": "Mặc định, App chỉ yêu cầu quảng cáo không cá nhân hoá. Quảng cáo chỉ được cá nhân hoá khi bạn bật Quảng cáo được cá nhân hoá trong Cài đặt › Quảng cáo. Mọi quảng cáo đều giới hạn ở nội dung phù hợp với mọi lứa tuổi.",
   "In the App:": "Trong App:",
-  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "Cài đặt › Quảng cáo cho phép bạn chọn quảng cáo cá nhân hoá hoặc không bất cứ lúc nào. Mặc định là quảng cáo không cá nhân hoá."
+  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "Cài đặt › Quảng cáo cho phép bạn chọn quảng cáo cá nhân hoá hoặc không bất cứ lúc nào. Mặc định là quảng cáo không cá nhân hoá.",
+  "Only available in South Korea": "Chỉ có tại Hàn Quốc",
+  "Generate Korean Lotto 6/45 numbers with your own filter rules.": "Tạo số Lotto 6/45 Hàn Quốc theo điều kiện lọc của riêng bạn.",
+  "Korea Lotto screenshot": "Ảnh chụp màn hình Korea Lotto",
+  "Korea Lotto logo": "Logo Korea Lotto"
 }
