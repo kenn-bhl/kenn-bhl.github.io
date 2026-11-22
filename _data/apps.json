@@ -83,6 +83,21 @@
       "googlePlayUrl": "coming_soon",
       "special_available": "vi",
       "position": 200
+    },
+    {
+      "id": "usa-lottery",
+      "group": "Life",
+      "name": "USA Lottery",
+      "shortDescription": "Generate Powerball, Mega Millions and other US lottery numbers with your own filter rules.",
+      "age": "18+",
+      "logo": "usa-lottery/logo.png",
+      "main": "https://placehold.co/600x400",
+      "landing": "usa-lottery/",
+      "languages": ["en"],
+      "appStoreUrl": "coming_soon",
+      "googlePlayUrl": "coming_soon",
+      "special_available": "us",
+      "position": 250
     }
   ]
 }

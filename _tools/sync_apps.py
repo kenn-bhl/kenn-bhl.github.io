@@ -14,7 +14,7 @@ def ico(n):
 ICON = {'appstore': ico('appstore'), 'googleplay': ico('googleplay')}
 LABEL = {'appstore': 'App Store', 'googleplay': 'Google Play'}
 STYLE = {'appstore': 'btn-inverse', 'googleplay': 'btn-tertiary'}
-REGION = {'vi': 'Vietnam'}
+REGION = {'vi': 'Vietnam', 'us': 'the US'}
 
 def store_url(u):
     # Apple links: drop the {locale} segment; apps.apple.com redirects to the visitor's storefront.

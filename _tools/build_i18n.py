@@ -58,7 +58,7 @@ ORDER = list(LANG_NAMES)
 
 # Text that is the same in every language (names, brands, contact details).
 KEEP = {'J-Studio', 'App Store', 'Google Play', 'J-Kids', '1000 Words', 'New Word Learning',
-        'Daily Task', 'Lấy số Vietlott', 'Subsum', 'kenn.bhl@gmail.com', '+84 856 011 093',
+        'Daily Task', 'Lấy số Vietlott', 'USA Lottery', 'Subsum', 'kenn.bhl@gmail.com', '+84 856 011 093',
         'Android:', 'Bui Trung Kien'} | set(LANG_NAMES.values())
 
 GLOBE = ('<svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="6.25" stroke="currentColor" stroke-width="1.3"/>'
