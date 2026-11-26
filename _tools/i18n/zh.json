@@ -243,5 +243,6 @@
   "when you add a word, you can take a picture or choose one from your photo library. The App asks for this access only when you tap Camera or Library. The picture is cropped, resized and saved in the App’s private storage on your device. It is never uploaded.": "添加单词时，你可以拍照或从相册中选择图片。只有在你点按“拍照”或“相册”时，本应用才会请求此权限。图片会被裁剪、缩小并保存在你设备上本应用的私有存储中，绝不会上传。",
   "By default, the App requests non-personalised ads only. Ads are personalised only if you turn on Personalised ads in Settings › Ads. All ads are limited to content suitable for all ages.": "默认情况下，本应用只请求非个性化广告。只有当你在 设置 › 广告 中开启“个性化广告”时，广告才会个性化。所有广告都仅限适合所有年龄段的内容。",
   "In the App:": "在应用内：",
-  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "你可以随时在 设置 › 广告 中选择个性化或非个性化广告。默认为非个性化广告。"
+  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "你可以随时在 设置 › 广告 中选择个性化或非个性化广告。默认为非个性化广告。",
+  "Your Channels": "Your Channels"
 }

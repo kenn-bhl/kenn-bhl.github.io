@@ -243,5 +243,6 @@
   "when you add a word, you can take a picture or choose one from your photo library. The App asks for this access only when you tap Camera or Library. The picture is cropped, resized and saved in the App’s private storage on your device. It is never uploaded.": "når du tilføjer et ord, kan du tage et billede eller vælge et fra dit fotobibliotek. Appen beder kun om denne adgang, når du trykker på Kamera eller Bibliotek. Billedet beskæres, gøres mindre og gemmes i appens private lager på din enhed. Det bliver aldrig uploadet.",
   "By default, the App requests non-personalised ads only. Ads are personalised only if you turn on Personalised ads in Settings › Ads. All ads are limited to content suitable for all ages.": "Som standard anmoder appen kun om ikke-tilpassede annoncer. Annoncer bliver kun tilpasset, hvis du slår Tilpassede annoncer til under Indstillinger › Annoncer. Alle annoncer er begrænset til indhold, der passer til alle aldre.",
   "In the App:": "I appen:",
-  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "Under Indstillinger › Annoncer kan du til enhver tid vælge tilpassede eller ikke-tilpassede annoncer. Ikke-tilpassede annoncer er standard."
+  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "Under Indstillinger › Annoncer kan du til enhver tid vælge tilpassede eller ikke-tilpassede annoncer. Ikke-tilpassede annoncer er standard.",
+  "Your Channels": "Your Channels"
 }

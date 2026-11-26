@@ -243,5 +243,6 @@
   "when you add a word, you can take a picture or choose one from your photo library. The App asks for this access only when you tap Camera or Library. The picture is cropped, resized and saved in the App’s private storage on your device. It is never uploaded.": "単語を追加するときに、写真を撮るか、写真ライブラリから選ぶことができます。本アプリがこのアクセスを求めるのは「カメラ」または「ライブラリ」をタップしたときだけです。画像は切り抜き・縮小され、端末内の本アプリ専用の領域に保存されます。アップロードされることはありません。",
   "By default, the App requests non-personalised ads only. Ads are personalised only if you turn on Personalised ads in Settings › Ads. All ads are limited to content suitable for all ages.": "初期設定では、本アプリはパーソナライズされていない広告のみをリクエストします。「設定 › 広告」で「パーソナライズド広告」をオンにした場合にのみ、広告がパーソナライズされます。すべての広告は全年齢向けの内容に限定されています。",
   "In the App:": "アプリ内：",
-  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "「設定 › 広告」で、パーソナライズド広告かどうかをいつでも選べます。初期設定はパーソナライズされていない広告です。"
+  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "「設定 › 広告」で、パーソナライズド広告かどうかをいつでも選べます。初期設定はパーソナライズされていない広告です。",
+  "Your Channels": "Your Channels"
 }

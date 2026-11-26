@@ -113,6 +113,20 @@
       "googlePlayUrl": "coming_soon",
       "special_available": "kr",
       "position": 260
+    },
+    {
+      "id": "your-channels",
+      "group": "Life",
+      "name": "Your Channels",
+      "shortDescription": "Watch videos only from the YouTube channels you choose, with no endless recommendations.",
+      "age": "13+",
+      "logo": "your-channels/logo.png",
+      "main": "your-channels/main.png",
+      "landing": "your-channels/",
+      "languages": ["en"],
+      "appStoreUrl": "coming_soon",
+      "googlePlayUrl": "coming_soon",
+      "position": 150
     }
   ]
 }

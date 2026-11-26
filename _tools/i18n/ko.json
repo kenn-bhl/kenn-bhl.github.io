@@ -316,5 +316,6 @@
   "The App is intended for adults aged 19 and over, the legal age to buy lottery tickets in Korea. It is not directed at children, and we do not knowingly collect information from anyone under 19.": "앱은 한국에서 복권을 구매할 수 있는 나이인 만 19세 이상 성인을 대상으로 합니다. 아동을 대상으로 하지 않으며, 19세 미만의 정보를 알면서 수집하지 않습니다.",
   "Data stored by the App stays in the App’s private storage on your device. The ads SDK connects to Google over encrypted connections (HTTPS).": "앱이 저장하는 데이터는 기기 내 앱 전용 저장 공간에만 보관됩니다. 광고 SDK는 암호화된 연결(HTTPS)로 Google에 접속합니다.",
   "We may update this policy from time to time. Changes will be posted on this page with a new effective date. Continuing to use the App means you have read and understood this policy.": "이 방침은 수시로 변경될 수 있으며, 변경 사항은 새 시행일과 함께 이 페이지에 게시됩니다. 앱을 계속 이용하면 이 방침을 읽고 이해한 것으로 간주합니다.",
-  "If you have any questions about this policy, please contact us:": "이 방침에 대해 궁금한 점이 있으면 연락해 주세요."
+  "If you have any questions about this policy, please contact us:": "이 방침에 대해 궁금한 점이 있으면 연락해 주세요.",
+  "Your Channels": "Your Channels"
 }

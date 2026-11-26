@@ -189,5 +189,6 @@
   "when you add a word, you can take a picture or choose one from your photo library. The App asks for this access only when you tap Camera or Library. The picture is cropped, resized and saved in the App’s private storage on your device. It is never uploaded.": "เมื่อเพิ่มคำ คุณสามารถถ่ายรูปหรือเลือกรูปจากคลังภาพได้ แอปจะขอสิทธิ์นี้เฉพาะเมื่อคุณแตะ กล้อง หรือ คลังภาพ เท่านั้น รูปจะถูกครอป ย่อขนาด และบันทึกไว้ในพื้นที่จัดเก็บส่วนตัวของแอปบนอุปกรณ์ของคุณ และจะไม่ถูกอัปโหลดเลย",
   "By default, the App requests non-personalised ads only. Ads are personalised only if you turn on Personalised ads in Settings › Ads. All ads are limited to content suitable for all ages.": "โดยค่าเริ่มต้น แอปจะขอเฉพาะโฆษณาที่ไม่ได้ปรับให้เหมาะกับคุณ โฆษณาจะถูกปรับให้เหมาะกับคุณก็ต่อเมื่อคุณเปิด โฆษณาที่ปรับให้เหมาะกับคุณ ใน การตั้งค่า › โฆษณา เท่านั้น โฆษณาทั้งหมดจำกัดเฉพาะเนื้อหาที่เหมาะกับทุกวัย",
   "In the App:": "ในแอป:",
-  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "การตั้งค่า › โฆษณา ให้คุณเลือกโฆษณาที่ปรับให้เหมาะกับคุณหรือไม่ได้ทุกเมื่อ ค่าเริ่มต้นคือโฆษณาที่ไม่ได้ปรับให้เหมาะกับคุณ"
+  "Settings › Ads lets you choose personalised or non-personalised ads at any time. Non-personalised ads are the default.": "การตั้งค่า › โฆษณา ให้คุณเลือกโฆษณาที่ปรับให้เหมาะกับคุณหรือไม่ได้ทุกเมื่อ ค่าเริ่มต้นคือโฆษณาที่ไม่ได้ปรับให้เหมาะกับคุณ",
+  "Your Channels": "Your Channels"
 }
